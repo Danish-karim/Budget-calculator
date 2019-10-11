@@ -1,0 +1,187 @@
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding: 10px;
+    color: brown;
+    
+}
+.inputsss{
+
+    text-align: center;
+    background-color: rgb(236, 232, 232);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: -3px;
+}
+.main{
+    
+    padding: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.expense{
+    
+    float: right;
+    width: 48%;
+    
+    padding: 10px;
+}
+
+.income{
+    
+     width: 48%; 
+    /* display: inline-block; */
+    /* float: left; */
+    float: left;
+    padding: 10px;
+    clear: both;
+}
+.dataDisplay{
+    
+    padding-top: 20px;
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.btnclass{
+    background-color: coral;
+    color: white;
+    width: 13px;
+    height: 25px;
+    font-size: 10px;
+    
+    border-radius: 5px;
+    font-size:13px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    
+    
+}
+
+.leftExpense{
+
+    display:inline-block;
+    width: 75%;
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.RightExpense{
+
+    display:inline-block;
+    width: 30%;
+    padding-bottom: 5px;
+    color: #FF5049;
+}
+.leftIncome{
+
+    display:inline-block;
+    width: 75%;
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.RightIncome{
+
+    display:inline-block;
+    width: 30%;
+    padding-bottom: 5px;
+    color: rgb(236, 232, 232);
+}
+.Ivals{
+    font-size: 17px;
+    color: #47ada8;
+}
+.Evals{
+    font-size: 17px;
+    color: #FF5049;
+    padding-right: 4px;
+}
+.item{
+    display: flex !important;
+   
+    
+}
+#incMain{
+    display: flex !important;
+}
+
+
+#incVal{
+    display:inline-block;
+    
+}
+#incLabel{
+    display:inline-block;
+    padding-right: 40px;
+}
+#inc{
+    display: flex !important;
+    background-color: #47ada8;
+    padding: 5px;
+    height: 30px;
+    color: honeydew;
+    margin-bottom : 10px;
+}
+#exp{
+    display: flex !important;
+    background-color: #FF5049;
+    padding: 5px;
+    height: 30px;
+    margin-bottom : 10px;
+    color: honeydew;
+}
+.incColor{
+    color:#47ada8;
+}
+.expColor{
+    color: #FF5049;;
+}
+#incLab {
+    display: flex;
+    
+}
+#expLab {
+    display: flex;  
+}
+#incVal{
+    display: flex;
+    padding-left: 170px;
+    color:#fff;
+}
+#expppp{
+    display: flex !important;
+    padding-left: 170px;
+}
+#rmBtn{
+    
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: coral;
+    visibility: hidden;
+    color: honeydew;
+}
+#expVal{
+    color: honeydew;
+}
+
+   
+
+#income-list>div:nth-of-type(even){
+    background-color: rgb(236, 232, 232);
+}
+
+#expense-list>div:nth-of-type(even){
+    background-color: rgb(236, 232, 232);
+}
+
+.image:hover {    
+    
+    background-color: rgba(0, 0, 0, .6);
+}

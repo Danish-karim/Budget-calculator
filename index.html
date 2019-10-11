@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Budgety</title>
+</head>
+<body>
+    
+
+            <div class="ui container" id="conter"  style="padding-top: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+              
+
+                <img src="image1.jpg" class="image" alt="div_image" style="width:100%; height: 400px;">
+              
+                    <div class="centered" >
+                        <p style="font-size: 20px">Available budget in <span id="date"></span> :</p>
+                        <h1 style="text-align: center;" id="avbud"></h1>
+                        
+                        <div id="inc" >
+                          
+                            <div id=incMain>
+                              <div id="incLab">
+                                INCOME 
+                              </div>
+                              <div id="incVal">
+                              
+                              </div>
+                            </div>
+                       
+                          </div>
+                        
+                        <div id="exp">
+                          
+                            <div id="expLab">
+                              EXPENSE
+                            </div>
+                            <div id="expppp">
+                              <div id="expVal">
+
+                              </div>
+                              <div id="rmBtn">
+
+                              </div>
+                          </div>
+                          </div>
+                    </div>
+                  
+                    
+                    <div class="inputsss">  
+                      <select class="ui dropdown" id="select">
+                            <option value="0">Select</option>
+                            <option value="1">+</option>
+                            <option value="2">-</option>
+                          </select>
+                    
+                       <div class="ui input">
+                            <input type="text" placeholder="Add Description..." id="descrip">
+                        </div>
+                       <div class="ui input">
+                            <input type="number" placeholder="Value..." id="val">
+                       </div>
+                      <a >
+                        <i style="font-size: 25px;" class="check circle outline icon" id="click" ></i>
+                      </a> 
+                    </div>
+
+
+                    <div class="main">
+                        
+                      
+                      <div class="dataDisplay"> 
+                         
+                            <div class="income">
+                            
+                               <h3 class=incColor>INCOME</h3>         
+                             <hr>   
+                             
+                             <div class="ui relaxed divided list" id="income-list" >
+                        
+                             </div>
+                           </div>
+
+                           <div class="expense">
+                            
+                            <h3 class=expColor>EXPENSE</h3> 
+                            <hr>   
+                            
+                            <div class="ui relaxed divided list" id="expense-list">
+                        
+                            </div>
+                        </div>
+                    </div>  
+                    </div>
+
+                   
+                                        
+
+            </div>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
